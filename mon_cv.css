@@ -1,29 +1,26 @@
 /* Apparence générale */
 
-h1
-{
+h1 {
     font-size: 50px;
 }
 
-h2
-{
+h2 {
     font-size: 22px;
 }
 
-h3
-{
+h3 {
     font-size: 25px;
 }
 
-a /* Liens vers mail, twitter insta */
-{
+/* Liens vers mail, twitter insta */
+a {
    text-decoration: none;
    color: rgb(64, 64, 64);
    font-style: italic; 
 }
 
-a:hover /* Liens vers mail, twitter insta survol */
-{
+/* Liens vers mail, twitter insta survol */
+a:hover {
    text-decoration: underline;
    color: black;
 }
@@ -31,8 +28,7 @@ a:hover /* Liens vers mail, twitter insta survol */
 
 
 /* Apparence de l'entête globale */
-header
-{
+header {
    display: flex; /* Met côte à côte la photo et le titre */
    flex-wrap: nowrap; /* Les éléments sont ressérés au max */
    color: rgb(64, 64, 64);
@@ -41,47 +37,40 @@ header
 }
 
 /* Apparence du bloc photo */
-.photo
-{
+.photo {
     background-color: rgb(230, 115, 115);
     padding : 20px;
     width: 210px;
     flex-shrink: 0; /* Interdiction de rétrécir */
 }
 
-img
-{
+img {
     border-radius: 100%;
     box-shadow: 0px 0px 10px rgb(64, 64, 64);
 }
 
-.titre
-{
+.titre {
     padding-left: 40px;
     padding-right: 40px;
 }
 
 /* Apparence du "titre */
-.prenom
-{
+.prenom {
     color: rgb(230, 115, 115);
 }
 
-.devel
-{
+.devel {
     text-decoration: underline;
     text-decoration-color: rgb(230, 115, 115);
 }
 
 /* Apparence générale du corps du CV */
-.corps
-{
+.corps {
     display: flex;
 }
 
 /* Apparence de la partie perso du CV */
-.gauche
-{
+.gauche {
     background-color: rgb(230, 115, 115);
     color: rgb(64, 64, 64);
     text-align: left;
@@ -89,20 +78,17 @@ img
     flex-shrink: 0; /* Interdiction de rétrécir */
 }
 
-.gauche h3
-{
+.gauche h3 {
     background-color: rgb(64, 64, 64); 
     color: rgb(230, 115, 115);
     text-align: center;
 }
 
-.gauche p
-{
+.gauche p {
     padding: 20px;
 }
 
-.datelieu
-{
+.datelieu {
     width: 200px;
 }
 
@@ -123,8 +109,8 @@ img
     padding: 10px;
 }
 
-.fas /* Apparence des logos  */
-{
+/* Apparence des logos  */
+.fas {
     color: rgb(64, 64, 64);
     display: block;
     text-align: center;
@@ -135,8 +121,7 @@ img
 }
 
 /* Apparence de la partie pro du CV */
-.droite
-{
+.droite {
     color: rgb(64, 64, 64);
     padding-left: 40px;
     padding-right: 40px;
@@ -144,28 +129,25 @@ img
     align-items: center;
 }
 
-.droite .fas /* Apparence spécifiques des logos "pro" */
-{
+/* Apparence spécifiques des logos "pro" */
+.droite .fas {
     color: rgb(230, 115, 115);
 }
 
-.droite .far /* Apparence spécifiques des logos "pro" */
-{
+/* Apparence spécifiques des logos "pro" */
+.droite .far {
     color: rgb(230, 115, 115);
 }
 
-article
-{
+article {
     display: flex;
 }
 
-.recommandation1
-{
+.recommandation1 {
     display: flex;
     flex-direction: column;
 }
 
-.coordonnees
-{
+.coordonnees {
     display: flex;
 }
