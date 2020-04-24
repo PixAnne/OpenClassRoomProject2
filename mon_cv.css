@@ -1,5 +1,10 @@
 /* Apparence générale */
 
+@font-face {
+    font-family: 'Milkshake';
+    src: url('Milkshake.ttf');
+}
+
 h1 {
     font-size: 50px;
 }
@@ -64,6 +69,7 @@ img {
     text-decoration-color: rgb(230, 115, 115);
 }
 
+
 /* Apparence générale du corps du CV */
 .corps {
     display: flex;
@@ -126,6 +132,7 @@ img {
     padding-left: 40px;
     padding-right: 40px;
     flex: auto;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -141,6 +148,13 @@ img {
 
 article {
     display: flex;
+}
+
+.datelieu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .recommandation1 {
