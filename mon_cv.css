@@ -3,19 +3,36 @@
 
 @font-face {
     font-family: 'Milkshake';
-    src: url('Milkshake.ttf');
+    src: url('font_milkshake/Milkshake.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoC';
+    src: url('font_roboto_condensed/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url('font_sriracha/Sriracha-Regular.ttf');
+}
+
+* {
+    font-family: RobotoC;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
+    font-family: Milkshake;
 }
 
 h2 {
     font-size: 22px;
+    font-family: Sriracha;
 }
 
 h3 {
     font-size: 25px;
+    font-family: Sriracha;
 }
 
 /* Liens vers mail, twitter insta */
@@ -64,11 +81,13 @@ img {
 /* Apparence du "titre */
 .prenom {
     color: rgb(230, 115, 115);
+    font-family: Milkshake;
 }
 
 .devel {
     text-decoration: underline;
     text-decoration-color: rgb(230, 115, 115);
+    font-family: Sriracha;
 }
 
 
