@@ -1,4 +1,5 @@
-/* Apparence générale */
+        /* Apparence générale */
+
 
 @font-face {
     font-family: 'Milkshake';
@@ -31,8 +32,9 @@ a:hover {
 }
 
 
+        /* Apparence de l'entête globale */
 
-/* Apparence de l'entête globale */
+
 header {
    display: flex; /* Met côte à côte la photo et le titre */
    flex-wrap: nowrap; /* Les éléments sont ressérés au max */
@@ -70,12 +72,17 @@ img {
 }
 
 
-/* Apparence générale du corps du CV */
+        /* Apparence générale du corps du CV */
+
+
 .corps {
     display: flex;
 }
 
-/* Apparence de la partie perso du CV */
+
+        /* Apparence de la partie perso du CV */
+
+
 .gauche {
     background-color: rgb(230, 115, 115);
     color: rgb(64, 64, 64);
@@ -98,12 +105,15 @@ img {
     width: 200px;
 }
 
+/* !!!! Toutes les icones !!! */
 .icones {
     display: flex;
     justify-content: space-around;
 
+
 }
 
+/* !!!!!! Une seule icone !!!! */
 .icone {
     display: flex;
     justify-content: center;
@@ -122,11 +132,15 @@ img {
     text-align: center;
 }
 
+
 .loisirs {
     padding-bottom: 25px;
 }
 
-/* Apparence de la partie pro du CV */
+
+        /* Apparence de la partie pro du CV */
+
+
 .droite {
     color: rgb(64, 64, 64);
     padding-left: 40px;
@@ -146,15 +160,19 @@ img {
     color: rgb(230, 115, 115);
 }
 
+/* Apparence spécifique des titres de droite */
 .droite h3 {
-    border-bottom: 2px solid rgb(230, 115, 115);
+    border-bottom: 1px solid rgb(230, 115, 115);
+    padding-bottom: 5px;
 }
 
+/* Apparence, surtout alignement des articles */
 article {
     display: flex;
 
 }
 
+/* Apparence de tous les conteneurs datelieu */
 .datelieu {
     display: flex;
     flex-direction: row;
@@ -162,15 +180,18 @@ article {
     align-items: baseline;
 }
 
+/* Apparence des textes expliquant les formations et expériences */
 .details {
     justify-content: space-around;
 }
 
+/* Conteneur des recommandations*/
 .recommandation1 {
     display: flex;
     flex-direction: column;
 }
 
+/* Apparence juste des coordonnées des recommandations */
 .coordonnees {
     display: flex;
 }
