@@ -146,8 +146,13 @@ img {
     color: rgb(230, 115, 115);
 }
 
+.droite h3 {
+    border-bottom: 2px solid rgb(230, 115, 115);
+}
+
 article {
     display: flex;
+
 }
 
 .datelieu {
@@ -155,6 +160,10 @@ article {
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
+}
+
+.details {
+    justify-content: space-around;
 }
 
 .recommandation1 {
