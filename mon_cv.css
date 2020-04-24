@@ -50,6 +50,9 @@ a:hover {
    color: black;
 }
 
+.cv {
+    max-width: 1280px;
+}
 
         /* Apparence de l'entête globale */
 
@@ -92,6 +95,10 @@ img {
     font-family: Sriracha;
 }
 
+.propos p {
+    text-align: justify;
+}
+
 
         /* Apparence générale du corps du CV */
 
@@ -122,9 +129,6 @@ img {
     padding: 20px;
 }
 
-.datelieu {
-    width: 200px;
-}
 
 /* !!!! Toutes les icones !!! */
 .icones {
@@ -164,8 +168,8 @@ img {
 
 .droite {
     color: rgb(64, 64, 64);
-    padding-left: 70px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     flex: auto;
     justify-content: space-around;
     align-items: center;
@@ -201,6 +205,7 @@ article {
     justify-content: space-around;
     align-items: baseline;
     flex-shrink: 0;
+    width: 100px;
 }
 
 /* Apparence des textes expliquant les formations et expériences */
@@ -219,8 +224,8 @@ article {
 .recommandation1 {
     display: flex;
     flex-direction: column;
+    width: 320px;
 }
-
 
 /* Apparence juste des coordonnées des recommandations */
 .coordonnees {
