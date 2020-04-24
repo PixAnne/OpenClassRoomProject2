@@ -68,10 +68,13 @@ header {
 /* Apparence du bloc photo */
 .photo {
     background-color: rgb(230, 115, 115);
-    padding : 20px;
-    width: 210px;
+    padding : 30px;
+    width: 240px;
     flex-shrink: 0; /* Interdiction de rétrécir */
+    text-align: center;
 }
+
+
 
 img {
     border-radius: 100%;
@@ -95,9 +98,6 @@ img {
     font-family: Sriracha;
 }
 
-.propos p {
-    text-align: justify;
-}
 
 
         /* Apparence générale du corps du CV */
@@ -115,14 +115,18 @@ img {
     background-color: rgb(230, 115, 115);
     color: rgb(64, 64, 64);
     text-align: left;
-    width: 250px;
+    width: 300px;
     flex-shrink: 0; /* Interdiction de rétrécir */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .gauche h3 {
     background-color: rgb(64, 64, 64); 
     color: rgb(230, 115, 115);
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .gauche p {
@@ -159,7 +163,19 @@ img {
 
 
 .loisirs {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
+}
+
+.contact {
+    flex: 1;
+}
+
+.propos {
+    flex: 3;
+}
+
+.propos p {
+    text-align: justify;
 }
 
 
