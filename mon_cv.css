@@ -200,6 +200,7 @@ article {
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
+    flex-shrink: 0;
 }
 
 /* Apparence des textes expliquant les formations et expériences */
