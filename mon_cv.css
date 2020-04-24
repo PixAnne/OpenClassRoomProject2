@@ -185,13 +185,21 @@ article {
     justify-content: space-around;
 }
 
-/* Conteneur des recommandations*/
+/* Conteneur entier des recommandations */
+.recommandation {
+    padding-bottom: 50px;
+}
+
+/* Conteneur des recommandations sans le titre inclu */
 .recommandation1 {
     display: flex;
     flex-direction: column;
 }
 
+
 /* Apparence juste des coordonnées des recommandations */
 .coordonnees {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
