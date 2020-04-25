@@ -41,11 +41,14 @@ h3 {
 h4 {
     font-size: 22px;
     font-weight: : bold;
+    margin-bottom: 0;
 }
 
 h5 {
     font-size: 18px;
     font-style: italic;
+    color: rgb(230, 115, 115);
+    margin-top: 8px;
 }
 
 /* Liens vers mail, twitter insta */
@@ -149,6 +152,7 @@ img {
 .icones {
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 
 
 }
@@ -174,7 +178,7 @@ img {
 
 
 .loisirs {
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .contact {
@@ -243,6 +247,18 @@ article {
     padding-left: 100px;
 }
 
+.details h5 {
+    margin-bottom: 0;
+}
+
+.formation h4 {
+    margin-top: 20px;
+}
+
+.experience h4 {
+    margin-top: 20px;
+}
+
 /* Conteneur entier des recommandations */
 .recommandation {
     padding-bottom: 50px;
@@ -260,4 +276,12 @@ article {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.recommandation1 address {
+    margin-top: 0;
+}
+
+.recommandation1 h5 {
+    margin-bottom: 0;
 }
