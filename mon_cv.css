@@ -20,8 +20,13 @@
     font-family: RobotoC;
 }
 
+body {
+    margin: 0;
+}
+
 .cv {
     max-width: 1280px;
+    margin: auto;
 }
 
 h1 {
@@ -238,13 +243,15 @@ article {
 .datelieu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: baseline;
     flex-shrink: 0;
     width: 120px;
     font-size: 18px;
 }
 
+.info {
+    padding-left: 10px;
+}
 /* Apparence des textes expliquant les formations et expériences */
 .details {
     justify-content: space-around;
@@ -325,6 +332,11 @@ article {
 
     .photo {
         width: auto;
+        background-color: transparent;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(230, 115, 115);
     }
 
     .gauche {
