@@ -20,6 +20,10 @@
     font-family: RobotoC;
 }
 
+.cv {
+    max-width: 1280px;
+}
+
 h1 {
     font-size: 80px;
     font-family: Milkshake;
@@ -64,9 +68,7 @@ a:hover {
    color: black;
 }
 
-.cv {
-    max-width: 1280px;
-}
+
 
         /* Apparence de l'entête globale */
 
@@ -87,8 +89,6 @@ header {
     flex-shrink: 0; /* Interdiction de rétrécir */
     text-align: center;
 }
-
-
 
 img {
     border-radius: 100%;
@@ -185,6 +185,7 @@ img {
     flex: 1;
 }
 
+/* Met en gras les "titres" du contenaur contact */
 .champs {
     font-weight: bold;
 }
@@ -287,5 +288,73 @@ article {
 }
 
 .recommandation1 h5 {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
+
+
+
+
+        /* Pour les écrans <1024px */
+
+
+@media all and (max-width: 1024px)
+{
+    header {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .corps {
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    .photo {
+        width: auto;
+    }
+
+    .gauche {
+        width: auto;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    .datelieu {
+        max-width: 50px;
+    }
+
+    .recommandation1 {
+        text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+    
