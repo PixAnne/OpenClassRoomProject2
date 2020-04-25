@@ -238,7 +238,6 @@ img {
 /* Apparence, surtout alignement des articles */
 article {
     display: flex;
-    padding-right: 40px;
 
 }
 
@@ -342,6 +341,11 @@ article {
         border: 5px solid rgb(230, 115, 115);
     }
 
+    .titre {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
     .gauche {
         width: auto;
     }
@@ -353,14 +357,11 @@ article {
 
     article {
         flex-direction: column;
+        align-items: center;
     }
 
     .details {
         padding-left: 0;
-    }
-
-    .datelieu {
-        max-width: 50px;
     }
 
     .recommandation1 {
