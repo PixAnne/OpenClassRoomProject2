@@ -185,6 +185,10 @@ img {
     flex: 1;
 }
 
+.champs {
+    font-weight: bold;
+}
+
 .propos {
     flex: 3;
 }
