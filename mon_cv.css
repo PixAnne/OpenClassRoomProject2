@@ -172,7 +172,7 @@ img {
 /* Apparence des logos  */
 .fas {
     color: rgb(64, 64, 64);
-    display: block;
+    display: block; /* doit se comporter comme une div */
     text-align: center;
 }
 
@@ -314,6 +314,10 @@ article {
         text-align: center;
     }
 
+    h3 {
+        text-align: center;
+    }
+
     .corps {
         flex-direction: column-reverse;
         width: auto;
@@ -327,6 +331,11 @@ article {
         width: auto;
     }
 
+    .droite {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     article {
         flex-direction: column;
     }
@@ -337,6 +346,15 @@ article {
 
     .recommandation1 {
         text-align: center;
+        padding-right: 0;
+    }
+
+    .coordonnees {
+        text-align: center;
+    }
+
+    .contact h3 {
+        margin-top: 0;
     }
 
     .contact {
