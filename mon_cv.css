@@ -37,12 +37,13 @@ h1 {
     font-family: Milkshake;
     margin-bottom: 0;
     margin-top: 0;
+    line-height: 1em; /* La hauteur de la ligne = à la taille de la police */
 }
 
 h2 {
     font-size: 22px;
     font-family: Sriracha;
-    margin-top: -30px;
+    margin-top: 0px;
 }
 
 h3 {
