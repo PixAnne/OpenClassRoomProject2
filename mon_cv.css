@@ -1,21 +1,20 @@
         /* Apparence générale */
 
-
+/* Polices */
 @font-face {
     font-family: 'Milkshake';
     src: url('font_milkshake/Milkshake.ttf');
 }
-
 @font-face {
     font-family: 'RobotoC';
     src: url('font_roboto_condensed/RobotoCondensed-Regular.ttf');
 }
-
 @font-face {
     font-family: 'Sriracha';
     src: url('font_sriracha/Sriracha-Regular.ttf');
 }
 
+/* Police pout tout le CV */
 * {
     font-family: RobotoC;
 }
@@ -79,6 +78,7 @@ a:hover {
 
 
 
+
         /* Apparence de l'entête globale */
 
 
@@ -109,17 +109,18 @@ img {
     padding-right: 40px;
 }
 
-/* Apparence du "titre */
 .prenom {
     color: rgb(230, 115, 115);
     font-family: Milkshake;
 }
 
+/* Soulignement juste de Devel */
 .devel {
     text-decoration: underline;
     text-decoration-color: rgb(230, 115, 115);
     font-family: Sriracha;
 }
+
 
 
 
@@ -129,6 +130,7 @@ img {
 .corps {
     display: flex;
 }
+
 
 
         /* Apparence de la partie perso du CV */
@@ -156,13 +158,11 @@ img {
     padding: 20px;
 }
 
-
 /* !!!! Toutes les icones !!! */
 .icones {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-
 
 }
 
@@ -185,7 +185,6 @@ img {
     text-align: center;
 }
 
-
 .loisirs {
     padding-bottom: 80px;
 }
@@ -194,7 +193,7 @@ img {
     flex: 1;
 }
 
-/* Met en gras les "titres" du contenaur contact */
+/* Met en gras les "titres" du conteneur contact */
 .champs {
     font-weight: bold;
 }
@@ -206,6 +205,8 @@ img {
 .propos p {
     text-align: justify;
 }
+
+
 
 
         /* Apparence de la partie pro du CV */
@@ -255,11 +256,13 @@ article {
 .info {
     padding-left: 10px;
 }
+
 /* Apparence des textes expliquant les formations et expériences */
 .details {
     justify-content: space-around;
     padding-right: : 50px;
     padding-left: 100px;
+    align-self: stretch; /* Aligne les flexibles */
 }
 
 .details h5 {
@@ -279,13 +282,6 @@ article {
     padding-bottom: 50px;
 }
 
-/* Conteneur des recommandations sans le titre inclu */
-.recommandation1 {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-}
-
 /* Apparence juste des coordonnées des recommandations */
 .coordonnees {
     display: flex;
@@ -293,13 +289,21 @@ article {
     flex-wrap: wrap;
 }
 
-.recommandation1 address {
-    margin-top: 0;
+/* Conteneur des recommandations sans le titre inclu */
+.recommandation1 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
 }
 
 .recommandation1 h5 {
     margin-bottom: 5px;
 }
+
+.recommandation1 address {
+    margin-top: 0;
+}
+
 
 
 
@@ -381,8 +385,6 @@ article {
     .contact {
         text-align: center;
     }
-
-
 }
 
 
