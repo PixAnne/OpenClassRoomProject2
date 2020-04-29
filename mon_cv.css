@@ -368,8 +368,9 @@ article {
     }
 
     .details {
-        padding-left: 0;
         text-align: center;
+        padding-right: 0;
+        padding-left: 0;
     }
 
     .recommandation1 {
